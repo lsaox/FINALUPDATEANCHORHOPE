@@ -53,18 +53,12 @@ body {
 }
 
 .about-section {
-    padding: 150px 0; /* Add some padding */
+    padding:  0; /* Add some padding */
     background-color: #ffffff; /* White background */
     color: #000000; /* Black text color */
     text-align: center; /* Center text horizontally */
 }
 
-/* Style for the photo with white border */
-.about-photo {
-    border: 10px solid #0000005b; /* White border */
-    border-radius: 10px; /* Rounded corners */
-    max-width: 100%; /* Ensure the image doesn't exceed its container */
-}
 
 .Explore {
     text-align: center;
@@ -228,9 +222,7 @@ font-size: large;
 {background-color: #7c7c7c;
     
 }
-.new-section {
-    /* Your styles for .new-section */
-}
+
 
 .image-container {
     position: relative; /* Ensure relative positioning */
@@ -327,14 +319,16 @@ body {
 /* CSS */
 
 .navbar {
-
     top: 0;
     width: 100%;
     z-index: 1000; /* Ensure it's above other content */
-    background-color: rgba(255, 255, 255, 0.801); /* Initial background color with opacity */
+    background-color: rgba(255, 255, 255, 0.7); /* Initial background color with opacity */
     transition: background-color 0.2s ease; /* Smooth transition effect */
-    transition: opacity 0.3s ease;
-}
+  }
+  
+  .navbar.shrink {
+    background-color: rgba(255, 255, 255, 1); /* Fully white background */
+  }
 .custom-grey-btn {
     background-color: rgba(128, 128, 128, 0.774);
     border-color: rgb(51, 24, 25);
@@ -343,7 +337,7 @@ opacity: 100%;
 }
 .navbar.shrink {
     height: 98px; /* Adjust height as needed */
-    opacity: 30%;
+    opacity: 100%;
 }
 .hero-section {
     position: relative;
@@ -403,8 +397,8 @@ opacity: 100%;
     font-style: normal;
   }
   .dropdown-menu {
-    background-color: #03021f62; /* Light blue background color */
-    transition: all 0.8s ease; /* Smooth transition */
+    background-color: #01010ecb; /* Light blue background color */
+    transition: all 0.9s ease; /* Smooth transition */
 text-overflow: #ffffff;
 }
 
