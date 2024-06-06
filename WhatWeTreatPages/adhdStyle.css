@@ -502,6 +502,13 @@ button:hover {
     height: 100%;
     width: 100%;
 }
+.banner-image8 {
+    background-image: url('Assets/beautiful-6126170_1280 (1).jpg'); /* Replace 'assets/banner-image.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
 .m-plus-1p-light {
     font-family: "M PLUS 1p", sans-serif;
     font-weight: 300;
