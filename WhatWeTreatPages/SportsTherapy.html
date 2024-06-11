@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnchorOfHope.com</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS link -->
+    <link href="adhdStyle.css" rel="stylesheet"> <!-- Link to your CSS file -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Playball&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            overflow-x:hidden;
+            margin: 0;
+ 
+        }
+ 
+    .collapsible {
+      background-color: #ebfaffda;
+      color: #1a5061;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 20px;
+      transition: 0.4s;
+      border-radius: 5px;
+    }
+
+    .active, .collapsible:hover {
+      background-color: #ddd;
+    }
+
+    .content {
+      padding: 0 15px;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease-out;
+    }
+
+    </style>
+    
+</head>
+
+<body>
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top" style="padding-bottom:-100px; box-shadow: 0 4px 4px rgba(32, 32, 32, 0.671);">
+      
+        <a class="navbar-brand" href="#">
+           <div>
+<img src="assets/logo.png" style="height:175px;" alt="Logo">
+<span style="font-size: 28px; padding-left: 70px ; font-family: Borcha; opacity: 0.75; margin-top: 10px;">Anchor of Hope Counseling</span>
+</div>
+        </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    What We Offer
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                    <a class="dropdown-item" href="#">Child Counseling</a>
+                    <a class="dropdown-item" href="#">Adolescent Counseling</a>
+                    <a class="dropdown-item" href="#">Young Adult Counseling</a>
+                    <a class="dropdown-item" href="#">Adult Counseling</a>
+                    <a class="dropdown-item" href="#">Couples Counseling</a>
+                    <a class="dropdown-item" href="#">Family Counseling</a>
+                    <a class="dropdown-item" href="#">Online Counseling</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown3" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    What We Treat
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                    <a class="dropdown-item" href="AdjustmentDisorder.html">Adjustment Disorder</a>
+                    <a class="dropdown-item" href="ADHD.html">ADHD</a>
+                    <a class="dropdown-item" href="Anxiety.html">Anxiety</a>
+                    <a class="dropdown-item" href="BipolarDisorder.html">Bipolar Disorder</a>
+                    <a class="dropdown-item" href="Depression.html">Depression</a>
+                    <a class="dropdown-item" href="DMDD.html">DMDD</a>
+                    <a class="dropdown-item" href="EmotionalRegulation.html">Emotional Regulation</a>
+                    <a class="dropdown-item" href="Grief.html">Grief</a>
+                    <a class="dropdown-item" href="Insomnia.html">Insomnia</a>
+                    <a class="dropdown-item" href="LifeTransition.html">Life Transition</a>
+                    <a class="dropdown-item" href="MentalHealth.html">Mental Health</a>
+                    <a class="dropdown-item" href="OCD.html">OCD</a>
+                    <a class="dropdown-item" href="ODD.html">ODD</a>
+                    <a class="dropdown-item" href="PanicDisorder.html">Panic Disorder</a>
+                    <a class="dropdown-item" href="CProblems.html">Parent/Child Relationship Problems</a>
+                    <a class="dropdown-item" href="PTSD.html">PTSD</a>
+                    <a class="dropdown-item" href="SeparationAnxiety.html">Separation Anxiety Disorder</a>
+                    <a class="dropdown-item" href="SportsTherapy.html">Sports Performance Therapy</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Modalities
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                    <a class="dropdown-item" href="#">CBT</a>
+                    <a class="dropdown-item" href="#">Solution-Focused Therapy</a>
+                    <a class="dropdown-item" href="#">Narrative Therapy</a>
+                    <a class="dropdown-item" href="#">Gottman Therapy Trained</a>
+                    <a class="dropdown-item" href="#">Separation Anxiety Disorder</a>
+                    <a class="dropdown-item" href="#">Sports Performance Therapy</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    About Us
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown5">
+                    <a class="dropdown-item" href="#">Jason Lugo</a>
+                
+                    <a class="dropdown-item" href="#">Teddy</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Info</a>
+            </li>
+        </ul>
+    </div>
+</div>
+</nav>
+<section class="banner-section" data-aos="fade-up" data-aos-duration="1000">
+    <div class="banner-image9"></div>
+    <div class="blue-overlay"></div>
+    <div class="centered-text">
+        <h2 class="banner-text">Sports Therapy</h2>
+        <p class="banner-description"></p>
+    </div>
+</section>
+
+
+    
+
+  
+  
+<section class="section-text" style="text-align: center; background-color: rgb(255, 255, 255); padding: 30px 20px; border: #1a5061;">
+    <div style="max-width: 800px; margin: 0 auto;">
+        <h1 style="font-size: 26px; font-weight: bold; color: #1a5061; margin-bottom: 35px;">How can Sports Therapy help?</h1> <!-- Header -->
+
+        <button class="collapsible">Injury Prevention</button>
+        <div class="content">
+            <p>Sports therapists can assess an athlete's movement patterns and biomechanics to identify potential areas of weakness or imbalance that could lead to injury. By addressing these issues through targeted exercises and techniques, they help athletes reduce the risk of injury during training and competition.</p>
+        </div>
+
+        <button class="collapsible">Injury Rehabilitation</button>
+        <div class="content">
+            <p>When athletes do sustain injuries, sports therapists play a crucial role in their rehabilitation process. They design individualized treatment plans that may include manual therapy, therapeutic exercises, and modalities such as ultrasound or electrical stimulation to promote healing and restore function.</p>
+        </div>
+
+        <button class="collapsible">Pain Management</button>
+        <div class="content">
+            <p>Sports therapists can help athletes manage pain associated with both acute injuries and chronic conditions. Through techniques such as manual therapy, massage, and therapeutic exercises, they can alleviate discomfort and improve mobility, allowing athletes to return to their sport more quickly and safely.</p>
+        </div>
+
+        <button class="collapsible">Performance Enhancement</button>
+        <div class="content">
+            <p>Sports therapists work closely with athletes to optimize their performance by improving strength, flexibility, endurance, and overall fitness. They may incorporate techniques such as strength training, plyometrics, and sport-specific drills to enhance athletic performance and prevent injuries.</p>
+        </div>
+
+        <button class="collapsible">Mental Health Support</button>
+        <div class="content">
+            <p>Participating in sports can take a toll on an athlete's mental well-being, especially when dealing with injuries or performance pressure. Sports therapists can provide mental health support and counseling to help athletes cope with stress, anxiety, and other psychological challenges, promoting resilience and overall well-being.</p>
+        </div>
+
+        <button class="collapsible">Return to Sport Planning</button>
+        <div class="content">
+            <p>When athletes are ready to return to their sport after an injury, sports therapists can guide them through a gradual and safe return-to-play process. They help athletes regain confidence, assess readiness for competition, and implement strategies to minimize the risk of re-injury.</p>
+        </div>
+    </div>
+    <button style="background-color: #cce6ff; color: #002a5ed2; font-size: 16px; border: none; padding: 10px 20px; margin-right: 10px; transition: transform 0.2s, background-color 0.2s;">Call Now: +123456789</button>
+
+    <button style="background-color: #cce6ff; color: #002a5e; font-size: 16px; border: none; padding: 10px 20px; transition: transform 0.2s, background-color 0.2s;">Schedule an Appointment</button>
+        </div>
+        
+</section>
+
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      } 
+    });
+  }
+</script>
+   
+
+    
+</section>
+
+<section class="section-text" style="display: flex; align-items: flex-start; justify-content: space-between; margin-top: 20px;padding-left: 100px; padding-bottom: 20px;">
+    <div style="flex: 1; text-align: left;">
+        <h2 style="font-size: 24px; font-weight: bold; color: #074180; margin-bottom: 20px;">Treatment </h2>
+        <p style="font-size: 16px; color: #333333;">
+        
+            At Anchor of Hope, we offer tailored sports therapy plans designed to meet the unique needs of each athlete. Our experienced therapists employ evidence-based techniques including Cognitive-Behavioral Therapy (CBT), performance enhancement strategies, and mindfulness exercises. Collaborating closely with athletes, we focus on enhancing skills, optimizing performance, and preventing injuries. Our compassionate team provides ongoing support, empowering athletes to excel in their sport with confidence and resilience. Get in touch with us today and embark on a journey towards peak athletic performance and well-being.
+        
+        </p>
+        </div>
+    <div style="flex: 1; padding-left: 65px;">
+        <!-- Placeholder image -->
+        <img src="https://www.uchicagomedicine.org/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Funichicagomc-81nbqnb3%2Fmedia%2Fimages%2Fucmc%2Fforefront%2Fchannel-pages%2Fhealth-and-wellness%2Fsleep-and-covid-832-universal.jpg&w=1024&q=75" alt="Image" style="max-width: 80%; height: auto;">
+    </div>
+</section>
+
+
+
+<section class="section-text" style="display: flex; align-items: flex-start; justify-content: space-between; margin-top: 20px;padding-top: 30px; padding-bottom: 40px;">
+    <div style="flex: 1; padding-left: 100px;">
+        <!-- Placeholder image -->
+        <img src="Assets/Man-therapy.jpg" alt="Image" style="max-width: 100%; height: auto;">
+    </div>
+    <div style="flex: 1;padding-left: 30px; text-align: left;padding-right: 65px ">
+        <h2 style="font-size: 24px; font-weight: bold; color: #074180; margin-bottom: 20px;">Experience Compassionate Care for Your Entire Family</h2>
+        <p style="font-size: 16px; color: #333333;">For effective treatment tailored towards athletes , we’d love to meet with you and your family. Reach out to the office of Anchor of Hope, or easily schedule an appointment online today.</p>
+    
+        <button style="background-color: #cce6ff; color: #002a5ed2; font-size: 16px; border: none; padding: 10px 20px; margin-right: 10px; transition: transform 0.2s, background-color 0.2s;">Call Now: +123456789</button>
+
+        <button style="background-color: #cce6ff; color: #002a5e; font-size: 16px; border: none; padding: 10px 20px; transition: transform 0.2s, background-color 0.2s;">Schedule an Appointment</button>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+<section id="map-section" class="py-5" style="background-color: #f0f0f0;">
+    <div class="container">
+        <div class="row">
+            <!-- Map column -->
+            <div class="col-lg-6">
+                <iframe width="550" height="450" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJsQrrx_TUTYYRno9dWEIXXv4&key=AIzaSyArQqarbtt_izZtom6Exa1DyD2BVhlHPBU"></iframe>
+            </div>
+            <!-- Location info column -->
+            <div class="col-lg-6"  >
+                <div class="location-info" style=" background-color: hsl(210, 78%, 27%); border: 2px solid rgba(13, 0, 85, 0.308); padding: 15px ;">
+                    <h2 style="margin: 0; color: rgb(255, 255, 255); ">Our Location</h2>
+                </div>
+                <div class="location-details" style="padding-top: 10px; "> <!-- Adjusted left padding here -->
+                    <p>180 State St, Southlake,</p>
+                 Texas, 76092
+                   USA
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<footer class="footer" style="padding-top:60px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <h5>Company</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Who We Treat</a></li>
+                    <li><a href="#">Request an Appointment</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <!-- Add more services as needed -->
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <h5>Contact</h5>
+                <ul class="list-unstyled">                   
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Phone: 123-456-7890</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-lg-6 text-left">
+                <p class="small">Terms & Conditions | Privacy Policy</p>
+            </div>
+            <div class="col-lg-6 text-right">
+                <p class="small">Created by Eliseo Rodriguez</p>
+            </div>
+        </div>
+        <p class="text-center small">© 2024 Anchor Of Hope Counseling. All rights reserved.</p>
+    </div>
+</footer>
+    <!-- Bootstrap JS links (jQuery and Bootstrap JS) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+   
+    <script>
+        AOS.init();
+        
+        function initMap() {
+            // Create a map object and specify the DOM element for display.
+            var map = new google.maps.Map(document.getElementById('map'), {
+                center: {lat: -32.942, lng: -97.131},
+                zoom: 8
+            });
+        }
+    </script>
+    
+    <!-- Google Maps API script -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyArQqarbtt_izZtom6Exa1DyD2BVhlHPBU&callback=initMap"></script>
+   
+</body>
+
+</html> 

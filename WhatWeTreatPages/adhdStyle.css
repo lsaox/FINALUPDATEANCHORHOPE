@@ -525,4 +525,11 @@ button:hover {
     font-weight: 300;
     font-style: normal;
   }
+  .banner-image9 {
+    background-image: url('Assets/portrait-2793960_1280.jpg'); /* Replace 'assets/banner-image.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
   
